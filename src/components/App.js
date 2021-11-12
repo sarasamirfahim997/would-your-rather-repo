@@ -35,9 +35,8 @@ class App extends Component {
         <NavBar authedUser={this.props.authedUser} />
       <Switch>
         <Route exact path="/" component={Dashboard}/>
-        <Route path="/dash2" component={Dashboard}/>
         <Route path='/questions/:id'  component={QuestionPage} />
-        <Route path='/addquestion'  component={NewQuestion} />
+        <Route path='/add'  component={NewQuestion} />
         <Route path='/leaderboard'  component={Leaderboard} />
         <Route path='/notfound'  component={NotFound} />
       </Switch>

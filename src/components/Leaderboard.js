@@ -7,8 +7,8 @@ class Leaderboard extends Component {
         return (
             <div className='card d-flex justify-content-center'>
                 {data ? data.map((user)=>(
-                <ul className='cards align-self-center m-4'>
-                    <li key={user.id} className='row'>
+                <ul key={user.id} className='cards align-self-center m-4'>
+                    <li  className='row'>
                         <div className="col mb-2">
                         <img width='100' height='100' className='rounded m-4' src={user.avatarURL} alt=''/>
                         <h4 className='card__title d-inline text-light'>{user.name}</h4>

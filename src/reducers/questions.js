@@ -14,6 +14,8 @@ export default function questions(state={}, action){
             }
         case ADD_ANSWER:
             console.log(action)
+            console.log(state)
+            
             return{
                 ...state,
                 [action.qid]:{
@@ -25,6 +27,7 @@ export default function questions(state={}, action){
                 }
             }
         default:
+            console.log(state)
             return state
     }
 }

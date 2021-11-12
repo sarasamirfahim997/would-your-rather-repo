@@ -11,11 +11,11 @@ class NavBar extends Component {
     render() {
         const { authedUser, users } = this.props
         return (
-            <div class="nav col-12 d-flex justify-content-between">
+            <div className="nav col-12 d-flex justify-content-between">
                 <div className='col-9'>
-                    <ul class="nav ">
-                    <Link className='font text-light' to='/' exact ><li>Home</li></Link>
-                    <Link className='font text-light' to='/addquestion'><li>New Question</li></Link>
+                    <ul className="nav ">
+                    <Link className='font text-light' to='/' ><li>Home</li></Link>
+                    <Link className='font text-light' to='/add'><li>New Question</li></Link>
                     <Link className='font text-light' to='/leaderboard'><li>Leaderboard</li></Link>
                     </ul>
                     </div>
