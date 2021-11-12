@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: #19123B
+}
+
+.card {
+  border: none;
+  border-top: 5px solid rgb(176, 106, 252);
+  background: #212042;
+  color: #57557A
+}
+
+p {
+  font-weight: 600;
+  font-size: 15px
+}
+
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: #2A284D;
+  height: 40px;
+  width: 90px
+}
+
+.fab:hover {
+  cursor: pointer
+}
+
+.fa-twitter {
+  color: #56ABEC
+}
+
+.fa-facebook {
+  color: #1775F1
+}
+
+.fa-google {
+  color: #CB5048
+}
+
+.division {
+  float: none;
+  position: relative;
+  margin: 30px auto 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box
+}
+
+.division .line {
+  border-top: 1.5px solid #57557A;
+  ;
+  position: absolute;
+  top: 13px;
+  width: 90%
+}
+
+.line.l {
+  left: 25px
+}
+
+
+.division span {
+  font-weight: 600;
+  font-size: 14px
+}
+
+.myform {
+  padding: 0 25px 0 33px
+}
+
+.form-control {
+  border: 1px solid #57557A;
+  border-radius: 3px;
+  background: #212042;
+  margin-bottom: 20px;
+  letter-spacing: 1px
+}
+
+.form-control:focus {
+  border: 1px solid #57557A;
+  border-radius: 3px;
+  box-shadow: none;
+  background: #212042;
+  color: #fff;
+  letter-spacing: 1px
+}
+
+.bn {
+  text-decoration: underline
+}
+
+.bn:hover {
+  cursor: pointer
+}
+
+.form-check-input {
+  margin-top: 8px !important
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, rgba(176, 106, 252, 1) 39%, rgba(116, 17, 255, 1) 101%);
+  border: none;
+  border-radius: 50px
+}
+
+.btn-primary:focus {
+  box-shadow: none;
+  border: none
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, rgba(191, 140, 247, 0.37) 39%, rgba(116, 17, 255, 0.349) 101%);
+  border: none;
+}
+
+.btn-secondary:focus {
+  box-shadow: none;
+  border: none
+}
+small {
+  color: #F2CEFF
+}
+
+.far.fa-user {
+  font-size: 13px
+}
+
+.navbar {
+  position: fixed;
+  transition: 1s;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 45px;
+  font-family: Germania;
+  cursor: pointer;
+}
+
+.nav {
+  font-family: Lithos Pro;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.nav li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.font{
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.nav li:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid;
+    transform: scaleX(0);
+  border-bottom-color: rgba(116, 17, 255, 1);
+  transition: .2s ease-in-out;
+}
+
+.nav li:hover:after {
+  transform: scaleX(1);
+}
+
+.para {
+  min-height: 500px;
+}
+
+.para h3 {
+  text-align: center;
+  margin-top: 15%;
+  color: #fff;
+  font-family: nyala;
+  font-size: 44px;
+}
+img {
+  max-width: 100%;
+}
+
+.cards {
+  position: relative;
+  background: #333;
+  width: 400px;
+  height: 75%;
+  border-radius: 6px;
+  padding: 2rem;
+  color: #aaa;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.card__title {
+  color: white;
+  margin-top: 0;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+.card__content {
+  margin-top: -1rem;
+}
+
+
+.react-tabs__tab--selected{
+  background: linear-gradient(135deg, rgba(191, 140, 247, 0.37) 39%, rgba(116, 17, 255, 0.349) 101%) !important;
+  border: none;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.react-tabs__tab-list{
+  border-bottom: 1px solid rgb(176, 106, 252) !important; 
+}
+.editedCards{
+  width: 100% !important;
+  padding-left: 10vh;
+}
+.editedCardsP{
+  padding-left: 8vh;
+
+}
+
+.list-group-item {
+  background: none !important;
+  color: rgb(189, 189, 189);
+}
+
+.options{
+  background-color: rgb(56, 56, 56);
+  border-color: rgb(56, 56, 56);
+  color: white;
+}
